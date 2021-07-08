@@ -1,20 +1,24 @@
 # Magento 2 module for Google Tag Manager
-=========================================
-Homepage: http://www.yireo.com/software/magento-extensions/googletagmanager2
+Homepage: https://www.yireo.com/software/magento-extensions/googletagmanager2
 
-Requirements:
-* Magento 2.0.0 Stable
+[![Latest Stable Version](https://poser.pugx.org/yireo/magento2-googletagmanager2/v)](//packagist.org/packages/yireo/magento2-googletagmanager2) [![Total Downloads](https://poser.pugx.org/yireo/magento2-googletagmanager2/downloads)](//packagist.org/packages/yireo/magento2-googletagmanager2)  [![License](https://poser.pugx.org/yireo/magento2-googletagmanager2/license)](//packagist.org/packages/yireo/magento2-googletagmanager2)
 
-We recommend `composer` to install this package. However, if you want a manual copy instead, these are the steps:
-* Upload the files in the `source/` folder to the folder `app/code/Yireo/GoogleTagManager2` of your site
-* Run `php -f bin/magento module:enable Yireo_GoogleTagManager2`
-* Run `php -f bin/magento setup:upgrade`
-* Flush the Magento cache
-* Configure settings under `Stores > Configuration > Advanced > Yireo GoogleTagManager`
-* Done
 
-## Unit testing
-This extension ships with PHPUnit tests. The generic PHPUnit configuration in Magento 2 will pick up on these tests. To only
-test Yireo extensions, copy the file `phpunit.xml.yireo` to your Magento folder `dev/tests/unit`. Next, from within that folder run PHPUnit. For instance:
+Supported versions:
+* Magento 2.2
+* Magento 2.3
+* Magento 2.4
 
-    phpunit -c phpunit.yireo.xml
+See `composer.json` for other requirements.
+
+[![ExtDN Unit Tests](https://github.com/yireo/Yireo_GoogleTagManager2/actions/workflows/extdn-unit-tests.yml/badge.svg)](https://github.com/yireo/Yireo_GoogleTagManager2/actions/workflows/extdn-unit-tests.yml)
+[![ExtDN Static Tests](https://github.com/yireo/Yireo_GoogleTagManager2/actions/workflows/extdn-static-tests.yml/badge.svg)](https://github.com/yireo/Yireo_GoogleTagManager2/actions/workflows/extdn-static-tests.yml)
+[![ExtDN Integration Tests](https://github.com/yireo/Yireo_GoogleTagManager2/actions/workflows/extdn-integration-tests.yml/badge.svg)](https://github.com/yireo/Yireo_GoogleTagManager2/actions/workflows/extdn-integration-tests.yml)
+
+
+## See also
+- [Installation](INSTALL.md)
+- [Usage](USAGE.md)
+- [Testing](TESTING.md)
+- [CHANGELOG](CHANGELOG.md)
+- [License](LICENSE.txt)
